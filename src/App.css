@@ -1,0 +1,19 @@
+/* styles/global.css or any global CSS file */
+.scrollbar-hide {
+  /* For WebKit browsers */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+/* Chat scrollbar style */
+.chatscrollbar::-webkit-scrollbar {
+  width: 4px; 
+}
+
+.chatscrollbar::-webkit-scrollbar-thumb {
+  background:  #aaa;
+  border-radius: 3px;
+}
